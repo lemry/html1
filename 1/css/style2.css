@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,500&display=swap');
 :root
 {
     --green: green;
@@ -14,7 +14,7 @@
 
 *
 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -136,10 +136,9 @@ body
 {
     border: 0px solid;
     position: absolute;
-    top: -70%;
-    right: 2rem;
-    width: 50rem;
-    height: 4.5rem;
+    right: -110%;
+    width: 75rem;
+    height: 70.5rem;
     background: #fff;
     border-radius: .5rem;
     overflow: hidden;
@@ -149,9 +148,18 @@ body
     opacity: 0%;
 }
 
+.header .search-form h2
+{
+    margin-top: -50%;
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+
 .header .search-form.active
 {
-    top: 9rem;
+    top: 14rem;
+    right: 70rem;
     opacity: 100%;
     transition: .4s linear;
 }
@@ -185,18 +193,22 @@ body
     border: 1px solid;
     border-radius: .5rem;
     position: absolute;
-    width: 90rem;
+    width: 60%;
+    height: 60rem;
     top: 120%;
     right: -110%;
     box-shadow: var(--box-shadow);
-    padding: 12rem;
+    padding: 9rem 35rem;
     background: #fff;
     text-align: center;
 }
 
 .header .client-form img
 {
-    justify-content: center;
+    position: absolute;
+    align-items: center;
+    right: 15rem;
+    width: 70%;
 }
 
 .header .client-form h3
@@ -221,10 +233,20 @@ body
 
 .header .client-form p
 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: .2rem 0;
     color: #646464;
 }
+
+.header .client-form h2
+{
+    font-size: 1.5rem;
+    padding: 35rem 0;
+    color: var(--black);
+    text-transform: none;
+    
+}
+
 
 .header .client-form p a
 {
@@ -236,9 +258,14 @@ body
 
 .header .client-form.active 
 {
-    right: 2rem;
+    right: 40rem;
     transition: .3s linear;
 }
+
+
+
+
+
 
 
 
@@ -291,4 +318,40 @@ body
     font-size: 50%;
     
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*///////////////////////////FONT //////////////////////////////*/
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
