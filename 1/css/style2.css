@@ -137,7 +137,7 @@ body
     border: 0px solid;
     position: absolute;
     right: -110%;
-    width: 75rem;
+    width: 95rem;
     height: 70.5rem;
     background: #fff;
     border-radius: .5rem;
@@ -146,20 +146,23 @@ body
     align-items: center;
     box-shadow: var(--box-shadow);
     opacity: 0%;
+    
 }
 
 .header .search-form h2
 {
     margin-top: -50%;
     font-size: 1.5rem;
-    color: var(--black);
+    text-transform: none;
+    line-height: 200%;
+    color: var(--blue);
 }
 
 
 .header .search-form.active
 {
     top: 14rem;
-    right: 70rem;
+    right: 50rem;
     opacity: 100%;
     transition: .4s linear;
 }
@@ -198,7 +201,7 @@ body
     top: 120%;
     right: -110%;
     box-shadow: var(--box-shadow);
-    padding: 9rem 35rem;
+    padding: 5rem 25rem;
     background: #fff;
     text-align: center;
 }
@@ -259,8 +262,91 @@ body
 .header .client-form.active 
 {
     right: 40rem;
+    top: 220%;
     transition: .3s linear;
 }
+
+
+
+
+
+
+
+.header .soon-form
+{
+    border: 0px solid;
+    position: absolute;
+    right: -110%;
+    width: 125rem;
+    height: 70.5rem;
+    background: #fff;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    opacity: 0%;
+}
+
+.header .soon-form .pq
+{
+    margin-top: -5%;
+    margin-left: 7%;
+}
+
+.header .soon-form h2
+{
+    margin-top: 50%;
+    margin-left: -80%;
+    font-size: 1.5rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+
+.header .soon-form.active
+{
+    top: 14rem;
+    right: 30rem;
+    opacity: 100%;
+    transition: .4s linear;
+}
+
+.header .soon-form input
+{
+    height: 100%;
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 0 1.5rem;
+}
+
+.header .soon-form label
+{
+    font-size: 2.2rem;
+    padding-right: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.header .soon-form label:hover
+{
+    color: var(--red);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -355,3 +441,34 @@ body
   font-weight: 700;
   font-style: normal;
 }
+
+
+
+
+
+
+
+
+
+.bouton {
+    width: 15.46px;
+    height: 15.64px;
+    position: absolute;
+    background: rgb(0, 206, 141);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s, border-color 0.3s;
+  }
+  
+  .bouton1 { left: 0; top: 0; }
+  .bouton2 { left: 54.11px; top: 0; }
+  .bouton3 { left: 108.22px; top: 0; }
+  .bouton4 { left: 160.78px; top: 0; }
+  
+  
+  
+  .active {
+    background: #E9E9E9;
+    border: 2px solid rgb(0, 206, 141);
+  }
+  
